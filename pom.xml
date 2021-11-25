@@ -14,13 +14,10 @@
         <webVersion>1.0.0</webVersion>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-
     </properties>
-
 
     <dependencyManagement>
         <dependencies>
-
             <dependency>
                 <groupId>com.mycompany.app</groupId>
                 <artifactId>admin</artifactId>
@@ -43,14 +40,8 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
     <modules>
         <module>builders</module>
     </modules>
-
-
-
-
-
 </project>
 
